@@ -42,6 +42,31 @@ $ npm install --save-dev babel babel-preset-es2015 babel-preset-react babel-pres
   },
 ``` 
 
+## test js(empty.spec.js)
+```js
+import expect form 'expect';
+
+describe('empty', () => {
+    it('should work', () => {
+        expect(true).toEqual(true);
+    });
+});
+
+// $ npm test
+
+
+``` 
+
+## test
+
+```sh
+$ npm test
+
+``` 
+
+
+## cdn js
+
 ```html
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.1.2/mocha.js" integrity="sha256-N5gSz/06g+3w7sbdmJsIj5yFhqIA1YTWWFSZ4emoY80=" crossorigin="anonymous"></script>
@@ -50,6 +75,12 @@ $ npm install --save-dev babel babel-preset-es2015 babel-preset-react babel-pres
 
 ``` 
 
+
+
+
+
+
+more coming soon...
 
 
 
